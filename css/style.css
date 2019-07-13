@@ -1,0 +1,62 @@
+
+
+html{
+
+}
+
+.frame{
+  display: inline-block;
+}
+
+.item{
+  height: auto;
+  width: 450px;
+  display: inline-block;
+  vertical-align: bottom;
+
+}
+#chartKutijeZaCuvanje{
+  height: 270px;
+  width: 1000px;
+
+
+}
+#chartKutijeZaPrintanje{
+  height: 270px;
+  width: 1000px;
+}
+
+
+#tempKutijaCuvanje .manjeBitno{
+  color: gray;
+}
+#tempKutijaCuvanje  .bitno , .manjeBitno {
+    padding-left: 10%;
+}
+#tempKutijaCuvanje td {
+  border-bottom: 1px solid gray;
+}
+#tempKutijaCuvanje table{
+  width: 30%;
+}
+
+.bitno{
+  font-size: 30;
+}
+.manjeBitno{
+  color: gray;
+}
+.table {
+  display: table;
+  width: auto;
+}
+.table-row {
+  display: table-row;
+}
+.table-cell,.bitno, .manjeBitno {
+  display: table-cell;
+  padding: 10px;
+}
+.table-row:nth-child(odd) {
+  background: #5dc0c9;
+}
